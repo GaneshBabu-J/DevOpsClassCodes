@@ -16,6 +16,7 @@ $ mvn jetty:run
 
 Open [http://localhost:8080/](http://localhost:8080/)
 
+test
 
 Importing in IntelliJ IDEA 14
 --------------------
