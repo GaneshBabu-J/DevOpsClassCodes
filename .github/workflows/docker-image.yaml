@@ -13,6 +13,6 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag vishwasnm2/myaddressbook:0.1
     - name: Docker credentials
-      run: docker login --username vishwasnm2 --password ${secret.DOCKERSHUB}  
+      run: docker login --username sandesh2026 --password ${secret.SANDESH}  
     - name: Pushing the image on DockerHub
       run: docker push vishwasnm2/myaddressbook:0.1
