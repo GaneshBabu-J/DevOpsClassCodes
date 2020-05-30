@@ -27,6 +27,6 @@ jobs:
     - name: Publish Maven Artifacts
       run: mvn deploy --settings .m2/settings.xml     #-Dregistry=https://maven.pkg.github.com/GaneshBabu-J -Dtoken=GH_TOKEN 
       env:
-         GITHUB_TOKEN: ${{secrets.SANDESH}}  #npm_token
+         GITHUB_TOKEN: ${{secrets.GH_TOKEN}}  #npm_token
      
     
